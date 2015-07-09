@@ -24,3 +24,9 @@ fi
 
 # Replaced by autoreconf below
 autoreconf -if
+
+# if [ $? -eq 0 ]; then
+#     echo "Now run ./configure <options> to configure application"
+# else
+#     echo failed
+# fi
